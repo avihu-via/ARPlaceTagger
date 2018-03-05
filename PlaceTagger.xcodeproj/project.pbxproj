@@ -13,16 +13,6 @@
 		408C2BB5204C255B00392164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408C2BB3204C255B00392164 /* Main.storyboard */; };
 		408C2BB7204C255D00392164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408C2BB6204C255D00392164 /* Assets.xcassets */; };
 		408C2BBA204C255D00392164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408C2BB8204C255D00392164 /* LaunchScreen.storyboard */; };
-		408C2BE1204C2B3D00392164 /* LocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C2BD7204C2B3C00392164 /* LocationNode.swift */; };
-		408C2BE2204C2B3D00392164 /* FloatingPoint+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C2BD8204C2B3C00392164 /* FloatingPoint+Radians.swift */; };
-		408C2BE3204C2B3D00392164 /* SceneLocationEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C2BD9204C2B3C00392164 /* SceneLocationEstimate.swift */; };
-		408C2BE4204C2B3D00392164 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C2BDA204C2B3C00392164 /* CGPoint+Extensions.swift */; };
-		408C2BE5204C2B3D00392164 /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C2BDB204C2B3C00392164 /* SCNNode+Extensions.swift */; };
-		408C2BE6204C2B3D00392164 /* SceneLocationEstimate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C2BDC204C2B3C00392164 /* SceneLocationEstimate+Extensions.swift */; };
-		408C2BE7204C2B3D00392164 /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C2BDD204C2B3C00392164 /* CLLocation+Extensions.swift */; };
-		408C2BE8204C2B3D00392164 /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C2BDE204C2B3D00392164 /* SCNVector3+Extensions.swift */; };
-		408C2BE9204C2B3D00392164 /* SceneLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C2BDF204C2B3D00392164 /* SceneLocationView.swift */; };
-		408C2BEA204C2B3D00392164 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C2BE0204C2B3D00392164 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,16 +24,6 @@
 		408C2BB6204C255D00392164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		408C2BB9204C255D00392164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		408C2BBB204C255D00392164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		408C2BD7204C2B3C00392164 /* LocationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationNode.swift; path = "ARKit-CoreLocation/ARKit+CoreLocation/Source/LocationNode.swift"; sourceTree = SOURCE_ROOT; };
-		408C2BD8204C2B3C00392164 /* FloatingPoint+Radians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FloatingPoint+Radians.swift"; path = "ARKit-CoreLocation/ARKit+CoreLocation/Source/FloatingPoint+Radians.swift"; sourceTree = SOURCE_ROOT; };
-		408C2BD9204C2B3C00392164 /* SceneLocationEstimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneLocationEstimate.swift; path = "ARKit-CoreLocation/ARKit+CoreLocation/Source/SceneLocationEstimate.swift"; sourceTree = SOURCE_ROOT; };
-		408C2BDA204C2B3C00392164 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGPoint+Extensions.swift"; path = "ARKit-CoreLocation/ARKit+CoreLocation/Source/CGPoint+Extensions.swift"; sourceTree = SOURCE_ROOT; };
-		408C2BDB204C2B3C00392164 /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SCNNode+Extensions.swift"; path = "ARKit-CoreLocation/ARKit+CoreLocation/Source/SCNNode+Extensions.swift"; sourceTree = SOURCE_ROOT; };
-		408C2BDC204C2B3C00392164 /* SceneLocationEstimate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SceneLocationEstimate+Extensions.swift"; path = "ARKit-CoreLocation/ARKit+CoreLocation/Source/SceneLocationEstimate+Extensions.swift"; sourceTree = SOURCE_ROOT; };
-		408C2BDD204C2B3C00392164 /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CLLocation+Extensions.swift"; path = "ARKit-CoreLocation/ARKit+CoreLocation/Source/CLLocation+Extensions.swift"; sourceTree = SOURCE_ROOT; };
-		408C2BDE204C2B3D00392164 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SCNVector3+Extensions.swift"; path = "ARKit-CoreLocation/ARKit+CoreLocation/Source/SCNVector3+Extensions.swift"; sourceTree = SOURCE_ROOT; };
-		408C2BDF204C2B3D00392164 /* SceneLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneLocationView.swift; path = "ARKit-CoreLocation/ARKit+CoreLocation/Source/SceneLocationView.swift"; sourceTree = SOURCE_ROOT; };
-		408C2BE0204C2B3D00392164 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = "ARKit-CoreLocation/ARKit+CoreLocation/Source/LocationManager.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +56,6 @@
 		408C2BAC204C255B00392164 /* PlaceTagger */ = {
 			isa = PBXGroup;
 			children = (
-				408C2BD6204C2B2C00392164 /* ARCL */,
 				408C2BAD204C255B00392164 /* AppDelegate.swift */,
 				408C2BAF204C255B00392164 /* art.scnassets */,
 				408C2BB1204C255B00392164 /* ViewController.swift */,
@@ -86,23 +65,6 @@
 				408C2BBB204C255D00392164 /* Info.plist */,
 			);
 			path = PlaceTagger;
-			sourceTree = "<group>";
-		};
-		408C2BD6204C2B2C00392164 /* ARCL */ = {
-			isa = PBXGroup;
-			children = (
-				408C2BDA204C2B3C00392164 /* CGPoint+Extensions.swift */,
-				408C2BDD204C2B3C00392164 /* CLLocation+Extensions.swift */,
-				408C2BD8204C2B3C00392164 /* FloatingPoint+Radians.swift */,
-				408C2BE0204C2B3D00392164 /* LocationManager.swift */,
-				408C2BD7204C2B3C00392164 /* LocationNode.swift */,
-				408C2BD9204C2B3C00392164 /* SceneLocationEstimate.swift */,
-				408C2BDC204C2B3C00392164 /* SceneLocationEstimate+Extensions.swift */,
-				408C2BDF204C2B3D00392164 /* SceneLocationView.swift */,
-				408C2BDB204C2B3C00392164 /* SCNNode+Extensions.swift */,
-				408C2BDE204C2B3D00392164 /* SCNVector3+Extensions.swift */,
-			);
-			name = ARCL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,18 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408C2BE9204C2B3D00392164 /* SceneLocationView.swift in Sources */,
-				408C2BE1204C2B3D00392164 /* LocationNode.swift in Sources */,
-				408C2BE7204C2B3D00392164 /* CLLocation+Extensions.swift in Sources */,
-				408C2BE3204C2B3D00392164 /* SceneLocationEstimate.swift in Sources */,
-				408C2BE2204C2B3D00392164 /* FloatingPoint+Radians.swift in Sources */,
 				408C2BB2204C255B00392164 /* ViewController.swift in Sources */,
-				408C2BE4204C2B3D00392164 /* CGPoint+Extensions.swift in Sources */,
-				408C2BE5204C2B3D00392164 /* SCNNode+Extensions.swift in Sources */,
-				408C2BEA204C2B3D00392164 /* LocationManager.swift in Sources */,
 				408C2BAE204C255B00392164 /* AppDelegate.swift in Sources */,
-				408C2BE6204C2B3D00392164 /* SceneLocationEstimate+Extensions.swift in Sources */,
-				408C2BE8204C2B3D00392164 /* SCNVector3+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
